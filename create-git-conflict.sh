@@ -59,14 +59,15 @@ git checkout -b a
 echo Making some files.
 cat > hi  <<'HERE'
 Where does
-it
+this
 go to?
 HERE
 
 cat > there <<'HERE'
 Here is there!
+
 When you are
-all the way
+
 there.
 HERE
 
@@ -81,7 +82,7 @@ git checkout b
 echo Making some files.
 cat > hi  <<'HERE'
 Where does
-this want to
+this
 go to?
 HERE
 
@@ -89,7 +90,7 @@ cat > there <<'HERE'
 Here is there!
 
 When you are
-not here, but
+
 there.
 HERE
 
